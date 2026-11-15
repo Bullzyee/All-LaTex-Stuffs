@@ -1,0 +1,139 @@
+%NOTE: Navigate the settings and choose XeLaTeX as your compiler.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{lastpage}
+
+\setmainfont{Times New Roman}
+
+\definecolor{navy}{RGB}{25,45,75}
+\definecolor{graytext}{RGB}{90,90,90}
+
+\linespread{1.1}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+\titleformat{\section}{\normalsize\bfseries\color{navy}}{}{0em}{}
+\titlespacing*{\section}{0pt}{14pt}{4pt}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{8pt}{2pt}
+
+\setlist{leftmargin=1.5em, itemsep=1pt, topsep=2pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small\textcolor{graytext}{MINUTES OF THE MEETING}}
+\rhead{\small\textcolor{graytext}{OFFICIAL RECORD}}
+\cfoot{\small Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large\bfseries\color{navy} LEARNING RESOURCE CENTER}\\[2pt]
+    {\small University of the Philippines}\\[8pt]
+    {\color{navy}\rule{\textwidth}{1pt}}\\[8pt]
+    {\LARGE\bfseries MINUTES OF THE MEETING}\\[2pt]
+    {\normalsize General Assembly}\\[8pt]
+    {\color{navy}\rule{\textwidth}{0.4pt}}
+\end{center}
+
+\section*{I. MEETING DETAILS}
+
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{3.5cm} X@{}}
+Date:              & [Month Day, Year] \\
+Time:              & [Start Time -- End Time] \\
+Venue:             & [Meeting Venue / Online Platform] \\
+\end{tabularx}
+
+\section*{II. ATTENDANCE}
+
+\textbf{Present:}
+\begin{enumerate}
+    \item Zion
+    \item [Name of Attendee]
+    \item [Name of Attendee]
+\end{enumerate}
+
+\textbf{Absent:}
+\begin{enumerate}
+    \item [Name of Attendee]
+\end{enumerate}
+
+\section*{III. AGENDA}
+
+\begin{enumerate}
+    \item [First Agenda Item]
+    \item [Second Agenda Item]
+    \item [Third Agenda Item]
+    \item Other Matters
+\end{enumerate}
+
+\section*{IV. DISCUSSION AND PROCEEDINGS}
+
+\subsection*{4.1. Opening of the Meeting}
+The meeting was called to order at [Time] by [Name of Presiding Officer].
+
+\subsection*{4.2. Approval of Previous Minutes}
+The minutes of the previous meeting were [approved / approved with revisions].
+
+\subsection*{4.3. Matters Discussed}
+
+\textbf{A. [First Agenda Item]}\\
+[Summary of discussion and agreements reached.]
+
+\textbf{B. [Second Agenda Item]}\\
+[Summary of discussion and agreements reached.]
+
+\textbf{C. [Third Agenda Item]}\\
+[Summary of discussion and agreements reached.]
+
+\subsection*{4.4. Other Matters}
+[Additional concerns, suggestions, or announcements.]
+
+\section*{V. AGREEMENTS AND ACTION ITEMS}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{|c|X|X|c|}
+\hline
+\textbf{No.} & \textbf{Action / Agreement} & \textbf{Person Responsible} & \textbf{Deadline} \\
+\hline
+1 & [Description of agreed action] & [Name] & [Date] \\
+\hline
+2 & [Description of agreed action] & [Name] & [Date] \\
+\hline
+3 & [Description of agreed action] & [Name] & [Date] \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1}
+
+\section*{VI. ADJOURNMENT}
+
+There being no further matters to discuss, the meeting was adjourned at [Time]. The next meeting is scheduled for [Date and Time], at [Venue].
+
+\section*{VII. PREPARATION AND APPROVAL}
+
+\vspace{4pt}
+\noindent
+\begin{minipage}[t]{0.47\textwidth}
+Prepared by:\\[28pt]
+\rule{\linewidth}{0.4pt}\\
+\textbf{Zion Joseph Busto}\\
+Date: \rule{3cm}{0.4pt}
+\end{minipage}
+
+
+\vfill
+\begin{center}
+    {\footnotesize\textcolor{graytext}{--- END OF MEETING MINUTES ---}}
+\end{center}
+
+\end{document}
